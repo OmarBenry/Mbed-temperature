@@ -16,12 +16,12 @@ LM75B sensor(D14, D15);
 int main()
 {
     //Try to open the LM75B
-    /*!
+    /**
     * \brief Prova ad aprire il sensore
     */
     if (sensor.open()) {
         printf("Device detected!\n");
-        /*!
+        /**
         * \var tempMin la temperatura minima
         */
         int tempMin=999;
